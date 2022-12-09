@@ -2,6 +2,8 @@ import './Hole2.css';
 import Course from '../Course2.png';
 import Driver from '../Driver.png'
 import Iron from '../Iron.png'
+import Wedge from '../Wedge.png'
+import Putter from '../Putter.png'
 import { Link } from 'react-router-dom';
 export function Hole2(){
   function Wrong(){
@@ -23,12 +25,15 @@ export function Hole2(){
           </header>
           <button onClick={Wrong}><img src ={Driver} className="Hole2-Club" alt="Driver"/></button>
           <button onClick={Correct}><img src ={Iron} className="Hole2-Club" alt="Iron"/></button>
+          <button onClick={Wrong}><img src ={Wedge} className="Hole2-Club" alt="Wedge"/></button>
+          <button onClick={Wrong}><img src ={Putter} className="Hole2-Club" alt="Putter"/></button>
           <body className="Body">
           <Link to="/Hole3">
                 <button>Next Hole</button>
             </Link>
-            <br></br>
-            <br></br>
+            <Link to="/Hole1">
+                <button>Last Hole</button>
+            </Link>
             <Link to="/">
                 <button>Home</button>
             </Link>

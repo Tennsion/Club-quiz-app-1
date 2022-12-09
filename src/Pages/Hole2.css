@@ -4,21 +4,20 @@
   }
   
   .Hole2-Course {
-    height: 20vmin;
+    height: 150px;
     pointer-events: none;
   }
   
-  .Hole1-Club{
+  .Hole2-Club{
     background-color: #008037;
     float: left;
-    width:  400x;
-    height: 400px;
+    height: 55vh;
     object-fit: cover;
   }
   
   .Hole2-header {
     background-color: #008037;
-    min-height: 20vh;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;

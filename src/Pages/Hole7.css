@@ -1,24 +1,23 @@
-.Hole1 {
+.Hole7 {
     text-align: center;
     height: 100vh;
   }
   
-  
-  .Hole1-Course {
-    height: 150px;
+  .Hole7-Course {
+    height: 20vmin;
     pointer-events: none;
-    
   }
-  .Hole1-Club{
-    background-color: #008037;
+  .Hole7-Club{
     float: left;
-    height: 55vh;
+    width:  400x;
+    height: 400px;
     object-fit: cover;
   }
   
-  .Hole1-header {
+  
+  .Hole7-header {
     background-color: #008037;
-    height: 300px;
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +25,3 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
-.Body{
-  background-color: #008037;
-  margin: 0px 10px;
-}
