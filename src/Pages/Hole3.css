@@ -1,0 +1,27 @@
+.Hole3 {
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .Hole3-Course {
+    height: 30vmin;
+    pointer-events: none;
+  }
+  
+  .Hole3-Club{
+    float: left;
+    width:  300x;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .Hole3-header {
+    background-color: #008037;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

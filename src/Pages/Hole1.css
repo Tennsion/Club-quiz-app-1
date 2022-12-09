@@ -1,0 +1,33 @@
+.Hole1 {
+    text-align: center;
+    height: 100vh;
+  }
+  
+  
+  .Hole1-Course {
+    height: 30vmin;
+    pointer-events: none;
+    
+  }
+  .Hole1-Club{
+    background-color: #008037;
+    float: left;
+    width:  400x;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .Hole1-header {
+    background-color: #008037;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.Body{
+  background-color: #008037;
+  
+}
